@@ -191,3 +191,53 @@ footer {
     box-shadow: 6px 8px rgb(0, 0, 0);
     border: 4px dashed rgb(255, 255, 255);
 }
+
+@media (max-width: 768px) {
+    body{
+        font-size: 16px;
+    }
+
+    h1, h2, h3 {
+        font-size: 24px;
+    }
+
+    .contenido, 
+    .contenido2, 
+    .contenido3, 
+    .images {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .Navegacion 
+    .opciones {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section, 
+    .contenido2 ul, 
+    .contenido3 ul {
+        padding: 20px;
+    }
+
+    img, 
+    video, 
+    iframe {
+        max-width: 100%;
+        height: auto;
+    }
+
+    audio {
+        width: 90%;
+        max-width: none;
+    }
+
+    .contador, 
+    header, 
+    nav {
+        font-size: 18px;
+        padding: 15px;
+    }
+}
